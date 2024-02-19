@@ -1,5 +1,5 @@
 name: Generate PDF report
-on: [push]
+on: workflow_dispatch
 jobs:
   Generate-PDF:
     runs-on: ubuntu-latest
