@@ -42,16 +42,18 @@ No findings
 
 ## High Risk
 
-1 finding
+No findings
 
 ## Medium Risk
 
-2 findings
+3 findings
 
 ### `depositYield()` can be front run
 
-**Severity:** High
+**Severity:** Medium
+
 **Context:** ggpVault.sol#depositYield
+
 **Description:**
 For ggpVault, it seems that yield earned from staking is collected through `depositYield()` callable by the owner or node operator.
 
